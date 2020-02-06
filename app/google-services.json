@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "382781170681",
+    "firebase_url": "https://women-security-17fbd.firebaseio.com",
+    "project_id": "women-security-17fbd",
+    "storage_bucket": "women-security-17fbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382781170681:android:78fd7fed7f9f4dd48d9328",
+        "android_client_info": {
+          "package_name": "com.example.winter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382781170681-6id1amvqn1k2nmmu9pu6861i0jb5kld5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.winter",
+            "certificate_hash": "ed9bbb5112e46ff89b5161484c40dd20a317a70c"
+          }
+        },
+        {
+          "client_id": "382781170681-e24kg1tfmqsjdhqrtop9m2jtvqbqj42d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa5hvJvQ7FuGnUywkAdAsJdAI3AqhWQB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382781170681-e24kg1tfmqsjdhqrtop9m2jtvqbqj42d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
