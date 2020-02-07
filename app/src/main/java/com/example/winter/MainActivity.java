@@ -1,35 +1,57 @@
 package com.example.winter;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.annotation.SuppressLint;
-import android.app.Activity;
-import android.content.Context;
+import android.Manifest;
 import android.content.Intent;
-import android.database.Cursor;
-import android.hardware.Sensor;
-import android.hardware.SensorEvent;
-import android.hardware.SensorEventListener;
-import android.hardware.SensorListener;
-import android.hardware.SensorManager;
+import android.content.pm.PackageManager;
 import android.media.MediaPlayer;
-import android.net.Uri;
 import android.os.Bundle;
-import android.os.PowerManager;
-import android.provider.ContactsContract;
+import android.telephony.SmsManager;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
 
 public class MainActivity extends AppCompatActivity implements AccelerometerListener {
     Button policeSiren;
-   //int PICK_CONTACT;
     MediaPlayer mp;
+    Button dial;
+    SmsManager smsManager;
+    static FirebaseDatabase database;
+    static DatabaseReference dref;
     int g=0;
-    public void closedGroup(View v)
+    public void sendSMS(View view) {
+
+                dref.addValueEventListener(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                        for (DataSnapshot ds : dataSnapshot.getChildren()) {
+                            String phoneNumber = ds.child("phoneNo").getValue(String.class);
+                            smsManager.sendTextMessage(phoneNumber, null, "Alert!!! Help ME", null, null);
+                        }
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                    }
+
+
+                });
+
+        }
+
+
+
+        public void closedGroup(View view)
     {
         Intent intent = new Intent(getApplicationContext(), closedGroup.class);
         startActivity(intent);
@@ -75,7 +97,7 @@ public class MainActivity extends AppCompatActivity implements AccelerometerList
         super.onResume();
         if (AccelerometerManager.isSupported(this)) {
             AccelerometerManager.startListening(this);
-        // wakeLock.release();
+
         }
     }
 
@@ -140,10 +162,11 @@ public class MainActivity extends AppCompatActivity implements AccelerometerList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         policeSiren=findViewById(R.id.mp3);
-//        FirebaseDatabase database = FirebaseDatabase.getInstance();
-//        DatabaseReference myRef = database.getReference("message");
-//
-//        myRef.setValue("Hello, World!");
+        smsManager = SmsManager.getDefault();
+        dial=findViewById(R.id.dial100);
+        database = FirebaseDatabase.getInstance();
+        dref = database.getReference().child("Contacts");
+        ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.SEND_SMS}, PackageManager.PERMISSION_GRANTED);
     }
 
 }

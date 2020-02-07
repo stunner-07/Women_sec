@@ -22,6 +22,8 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
+import static com.example.winter.MainActivity.dref;
+
 public class closedGroup extends AppCompatActivity {
     ArrayList<String> contactList = new ArrayList<>();
     ArrayAdapter arrayAdapter;
@@ -30,8 +32,6 @@ public class closedGroup extends AppCompatActivity {
     ListView listView;
     Button addb;
     Button bbutton;
-    FirebaseDatabase database;
-    DatabaseReference dref;
     Contacts user;
     Contacts user1;
     boolean is_added;
@@ -100,8 +100,7 @@ public class closedGroup extends AppCompatActivity {
         phone = findViewById(R.id.editText4);
         addb = findViewById(R.id.button);
         arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, contactList);
-        database = FirebaseDatabase.getInstance();
-        dref = database.getReference().child("Contacts");
+
         contactList.clear();
         contactList.add("enter new contact");
         dref.addValueEventListener(new ValueEventListener() {
