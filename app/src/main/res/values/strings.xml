@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Winter</string>
+<<<<<<< HEAD
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_maps2">Map</string>
+=======
+>>>>>>> f840900bad1960297700e0692fc9009aaa8a1551
 </resources>

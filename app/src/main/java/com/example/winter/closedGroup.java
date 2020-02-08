@@ -23,8 +23,11 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 
 import static com.example.winter.MainActivity.dref;
+<<<<<<< HEAD
 import static com.example.winter.MainActivity.dref;
 import static com.example.winter.MainActivity.dref;
+=======
+>>>>>>> f840900bad1960297700e0692fc9009aaa8a1551
 
 public class closedGroup extends AppCompatActivity {
     ArrayList<String> contactList = new ArrayList<>();
