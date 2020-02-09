@@ -60,7 +60,20 @@ public class MapsActivity2 extends FragmentActivity implements OnMapReadyCallbac
             if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
                 locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
                 Location lastKnownLocation = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
-                LatLng latLng = centerMapOnLocation(lastKnownLocation, "Your Location!");
+                LatLng latLng;
+                if(lastKnownLocation!=null) {
+                    latLng=centerMapOnLocation(lastKnownLocation, "Your Location!");
+                }
+                else{
+//                    LatLng sydney = new LatLng(-34, 151);
+//                    centerMapOnLocation(sydney,"your location");
+//                    mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
+//                    mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+                    Location loc = new Location(LocationManager.GPS_PROVIDER);
+                    loc.setLatitude(26.2183);
+                    loc.setLongitude(78.1828);
+                    latLng=centerMapOnLocation(loc,"Your Location");
+                }
                 mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, 10));
             }
         }
@@ -135,7 +148,20 @@ public class MapsActivity2 extends FragmentActivity implements OnMapReadyCallbac
 
             Location lastKnownLocation = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
             Log.i("gfd", "dsgs");
-            LatLng latLng = centerMapOnLocation(lastKnownLocation, "Your Location!");
+            LatLng latLng;
+            if(lastKnownLocation!=null) {
+                latLng=centerMapOnLocation(lastKnownLocation, "Your Location!");
+            }
+            else{
+//                    LatLng sydney = new LatLng(-34, 151);
+//                    centerMapOnLocation(sydney,"your location");
+//                    mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
+//                    mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+                Location loc = new Location(LocationManager.GPS_PROVIDER);
+                loc.setLatitude(26.2183);
+                loc.setLongitude(78.1828);
+                latLng=centerMapOnLocation(loc,"Your Location");
+            }
             mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, 14));
         } else {
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1);

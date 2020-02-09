@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:2:1-53:12
+ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:2:1-59:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\53af1f37d65227eb5bcf361cc28c52ea\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\3586cf9e5d37a5be2bbe710dbdaeb36f\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\3bb9fab9565f3c13da1b0de3227d5105\firebase-database-19.2.1\AndroidManifest.xml:15:1-38:12
@@ -50,37 +50,37 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Stunner\.grad
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\bc54237dd241608a60f3e5f1afb0cd23\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\71b619f01309f419ed6b9a79fb62df67\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\b9b77a85ff0c45528c42be6978bfc407\firebase-database-collection-17.0.0\AndroidManifest.xml:2:1-7:12
-INJECTED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:2:1-59:12
 	package
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:3:5-33
-		INJECTED from F:\Women_sec-master\app\src\main\AndroidManifest.xml
-		INJECTED from F:\Women_sec-master\app\src\main\AndroidManifest.xml
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml
+		INJECTED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from F:\Women_sec-master\app\src\main\AndroidManifest.xml
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:2:1-53:12
-		INJECTED from F:\Women_sec-master\app\src\main\AndroidManifest.xml
+		INJECTED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:2:1-59:12
+		INJECTED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from F:\Women_sec-master\app\src\main\AndroidManifest.xml
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:2:1-53:12
-		INJECTED from F:\Women_sec-master\app\src\main\AndroidManifest.xml
+		INJECTED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:2:1-59:12
+		INJECTED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:10:5-79
+ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:10:22-76
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:11:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:11:5-80
+ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:12:5-80
 	android:name
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:11:22-78
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:12:22-78
 uses-permission#android.permission.READ_CONTACTS
-ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:12:5-72
+ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:13:5-72
 	android:name
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:12:22-69
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:13:22-69
 uses-permission#android.permission.INTERNET
-ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:13:5-67
+ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:14:5-67
 MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\3bb9fab9565f3c13da1b0de3227d5105\firebase-database-19.2.1\AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\3bb9fab9565f3c13da1b0de3227d5105\firebase-database-19.2.1\AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\b808d5cd51a1841a7786daa63d96121a\jetified-play-services-maps-16.1.0\AndroidManifest.xml:24:5-67
@@ -96,13 +96,13 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\6c7afd014361483124c338b1efd68d29\play-services-measurement-sdk-api-17.2.2\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\6c7afd014361483124c338b1efd68d29\play-services-measurement-sdk-api-17.2.2\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:13:22-64
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:14:22-64
 uses-permission#android.permission.SEND_SMS
-ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:14:5-67
+ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:15:5-67
 	android:name
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:14:22-64
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:15:22-64
 application
-ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:16:5-51:19
+ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:21:5-57:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\3586cf9e5d37a5be2bbe710dbdaeb36f\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\3586cf9e5d37a5be2bbe710dbdaeb36f\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\3bb9fab9565f3c13da1b0de3227d5105\firebase-database-19.2.1\AndroidManifest.xml:28:5-36:19
@@ -148,61 +148,61 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\St
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\e91594602c73eba9f0c6fb1745d43dba\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:21:9-35
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:26:9-35
 	android:label
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:19:9-41
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:24:9-41
 	android:roundIcon
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:20:9-54
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:25:9-54
 	android:icon
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:18:9-43
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:23:9-43
 	android:allowBackup
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:22:9-35
 	android:theme
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:22:9-59
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:27:9-59
 meta-data#com.google.android.geo.API_KEY
-ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:32:9-34:55
+ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:37:9-39:55
 	android:value
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:34:13-52
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:39:13-52
 	android:name
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:33:13-58
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:38:13-58
 activity#com.example.winter.MapsActivity2
-ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:36:9-38:69
+ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:41:9-43:69
 	android:label
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:38:13-57
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:43:13-57
 	android:name
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:37:13-42
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:42:13-42
 activity#com.example.winter.MapsActivity
-ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:39:9-41:59
+ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:44:9-46:59
 	android:label
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:41:13-56
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:46:13-56
 	android:name
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:40:13-41
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:45:13-41
 activity#com.example.winter.MarkUnsafe
-ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:42:9-48
+ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:47:9-48
 	android:name
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:42:19-45
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:47:19-45
 activity#com.example.winter.closedGroup
-ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:43:9-49
+ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:48:9-49
 	android:name
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:43:19-46
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:48:19-46
 activity#com.example.winter.MainActivity
-ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:44:9-50:20
+ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:50:9-56:20
 	android:name
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:44:19-47
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:50:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:45:13-49:29
+ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:51:13-55:29
 action#android.intent.action.MAIN
-ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:46:17-69
+ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:52:17-69
 	android:name
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:46:25-66
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:52:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:48:17-77
+ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:54:17-77
 	android:name
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml:48:27-74
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml:54:27-74
 uses-sdk
-INJECTED from F:\Women_sec-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from F:\Women_sec-master\app\src\main\AndroidManifest.xml
-INJECTED from F:\Women_sec-master\app\src\main\AndroidManifest.xml
+INJECTED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml
+INJECTED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\53af1f37d65227eb5bcf361cc28c52ea\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\53af1f37d65227eb5bcf361cc28c52ea\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\3586cf9e5d37a5be2bbe710dbdaeb36f\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
@@ -295,16 +295,16 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Stunner\.gradle\cac
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\71b619f01309f419ed6b9a79fb62df67\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\b9b77a85ff0c45528c42be6978bfc407\firebase-database-collection-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\b9b77a85ff0c45528c42be6978bfc407\firebase-database-collection-17.0.0\AndroidManifest.xml:5:5-44
-INJECTED from F:\Women_sec-master\app\src\main\AndroidManifest.xml
-INJECTED from F:\Women_sec-master\app\src\main\AndroidManifest.xml
+INJECTED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml
+INJECTED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from F:\Women_sec-master\app\src\main\AndroidManifest.xml
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml
-		INJECTED from F:\Women_sec-master\app\src\main\AndroidManifest.xml
+		INJECTED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml
+		INJECTED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from F:\Women_sec-master\app\src\main\AndroidManifest.xml
-		ADDED from F:\Women_sec-master\app\src\main\AndroidManifest.xml
-		INJECTED from F:\Women_sec-master\app\src\main\AndroidManifest.xml
+		INJECTED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml
+		ADDED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml
+		INJECTED from F:\My APPS\Women_sec\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-database:19.2.1] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\3bb9fab9565f3c13da1b0de3227d5105\firebase-database-19.2.1\AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\b808d5cd51a1841a7786daa63d96121a\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:5-79

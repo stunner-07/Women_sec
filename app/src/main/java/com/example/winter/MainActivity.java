@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements AccelerometerList
 
         }
 
-<<<<<<< HEAD
+
         public void markDestination(View view)
         {
             Intent intent = new Intent(getApplicationContext(), MapsActivity2.class);
@@ -70,15 +70,8 @@ public class MainActivity extends AppCompatActivity implements AccelerometerList
             Intent intent = new Intent(getApplicationContext(), closedGroup.class);
             startActivity(intent);
         }
-=======
 
 
-        public void closedGroup(View view)
-    {
-        Intent intent = new Intent(getApplicationContext(), closedGroup.class);
-        startActivity(intent);
-    }
->>>>>>> f840900bad1960297700e0692fc9009aaa8a1551
 //    public void closedGroup(View v)
 //        {
 //            Intent intent = new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);

@@ -110,7 +110,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 //                    centerMapOnLocation(sydney,"your location");
 //                    mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
 //                    mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
-                    Location loc=new Location(LocationManager.GPS_PROVIDER);
+                    Location loc = new Location(LocationManager.GPS_PROVIDER);
+                    loc.setLatitude(26.2183);
+                    loc.setLongitude(78.1828);
                     centerMapOnLocation(loc,"Your Location");
                 }
             }

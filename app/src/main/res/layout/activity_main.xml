@@ -47,10 +47,7 @@
         android:alpha="0.7"
         android:background="@drawable/round_button"
         android:gravity="center_vertical|center_horizontal"
-<<<<<<< HEAD
         android:onClick="markUnsafe"
-=======
->>>>>>> f840900bad1960297700e0692fc9009aaa8a1551
         android:text="Mark UnSafe"
         android:textColor="#fff"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
@@ -102,10 +99,7 @@
 
     <Button
         android:layout_width="127dp"
-<<<<<<< HEAD
-=======
         android:alpha="0.7"
->>>>>>> f840900bad1960297700e0692fc9009aaa8a1551
         android:layout_height="120dp"
         android:layout_marginStart="240dp"
         android:layout_marginLeft="240dp"
@@ -113,15 +107,9 @@
         android:layout_marginEnd="45dp"
         android:layout_marginRight="45dp"
         android:layout_marginBottom="249dp"
-<<<<<<< HEAD
-        android:alpha="0.7"
         android:background="@drawable/round_button"
         android:gravity="center_vertical|center_horizontal"
         android:onClick="markDestination"
-=======
-        android:background="@drawable/round_button"
-        android:gravity="center_vertical|center_horizontal"
->>>>>>> f840900bad1960297700e0692fc9009aaa8a1551
         android:text="destination"
         android:textColor="#fff"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
