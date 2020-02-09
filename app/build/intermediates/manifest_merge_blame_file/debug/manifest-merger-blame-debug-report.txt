@@ -1,0 +1,248 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.winter"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->F:\Women_sec-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->F:\Women_sec-master\app\src\main\AndroidManifest.xml
+10
+11    <!--
+12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+13         Google Maps Android API v2, but you must specify either coarse or fine
+14         location permissions for the 'MyLocation' functionality.
+15    -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:10:5-79
+16-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:11:5-80
+17-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.READ_CONTACTS" />
+18-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:12:5-72
+18-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:12:22-69
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:13:5-67
+19-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:13:22-64
+20    <uses-permission android:name="android.permission.SEND_SMS" />
+20-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:14:5-67
+20-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:14:22-64
+21
+22    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+23    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\3bb9fab9565f3c13da1b0de3227d5105\firebase-database-19.2.1\AndroidManifest.xml:25:5-79
+24-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\3bb9fab9565f3c13da1b0de3227d5105\firebase-database-19.2.1\AndroidManifest.xml:25:22-76
+25
+26    <uses-feature
+26-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\b808d5cd51a1841a7786daa63d96121a\jetified-play-services-maps-16.1.0\AndroidManifest.xml:26:5-28:35
+27        android:glEsVersion="0x00020000"
+27-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\b808d5cd51a1841a7786daa63d96121a\jetified-play-services-maps-16.1.0\AndroidManifest.xml:27:9-41
+28        android:required="true" />
+28-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\b808d5cd51a1841a7786daa63d96121a\jetified-play-services-maps-16.1.0\AndroidManifest.xml:28:9-32
+29
+30    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+30-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\cf2070e8cb74b8bb68c2c2693c81ab70\play-services-measurement-api-17.2.2\AndroidManifest.xml:24:5-68
+30-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\cf2070e8cb74b8bb68c2c2693c81ab70\play-services-measurement-api-17.2.2\AndroidManifest.xml:24:22-65
+31    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+31-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\f41c156e0ed91e1f3824f8f6e622f777\firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+31-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\f41c156e0ed91e1f3824f8f6e622f777\firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
+32    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+32-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\0ccebae8df273c3449071da13f472100\play-services-measurement-17.2.2\AndroidManifest.xml:26:5-110
+32-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\0ccebae8df273c3449071da13f472100\play-services-measurement-17.2.2\AndroidManifest.xml:26:22-107
+33
+34    <application
+34-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:16:5-51:19
+35        android:allowBackup="true"
+35-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:17:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.1.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\e91594602c73eba9f0c6fb1745d43dba\core-1.1.0\AndroidManifest.xml:24:18-86
+37        android:debuggable="true"
+38        android:icon="@mipmap/ic_launcher"
+38-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:18:9-43
+39        android:label="@string/app_name"
+39-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:19:9-41
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:20:9-54
+41        android:supportsRtl="true"
+41-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:21:9-35
+42        android:testOnly="true"
+43        android:theme="@style/Theme.AppCompat.NoActionBar" >
+43-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:22:9-59
+44
+45        <!--
+46             The API key for Google Maps-based APIs is defined as a string resource.
+47             (See the file "res/values/google_maps_api.xml").
+48             Note that the API key is linked to the encryption key used to sign the APK.
+49             You need a different API key for each encryption key, including the release key that is used to
+50             sign the APK for publishing.
+51             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+52        -->
+53        <meta-data
+53-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:32:9-34:55
+54            android:name="com.google.android.geo.API_KEY"
+54-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:33:13-58
+55            android:value="@string/google_maps_key" />
+55-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:34:13-52
+56
+57        <activity
+57-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:36:9-38:69
+58            android:name="com.example.winter.MapsActivity2"
+58-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:37:13-42
+59            android:label="@string/title_activity_maps2" />
+59-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:38:13-57
+60        <activity
+60-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:39:9-41:59
+61            android:name="com.example.winter.MapsActivity"
+61-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:40:13-41
+62            android:label="@string/title_activity_maps" />
+62-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:41:13-56
+63        <activity android:name="com.example.winter.MarkUnsafe" />
+63-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:42:9-48
+63-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:42:19-45
+64        <activity android:name="com.example.winter.closedGroup" />
+64-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:43:9-49
+64-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:43:19-46
+65        <activity android:name="com.example.winter.MainActivity" >
+65-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:44:9-50:20
+65-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:44:19-47
+66            <intent-filter>
+66-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:45:13-49:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:46:17-69
+67-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:46:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:48:17-77
+69-->F:\Women_sec-master\app\src\main\AndroidManifest.xml:48:27-74
+70            </intent-filter>
+71        </activity>
+72
+73        <service
+73-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\3bb9fab9565f3c13da1b0de3227d5105\firebase-database-19.2.1\AndroidManifest.xml:29:9-35:19
+74            android:name="com.google.firebase.components.ComponentDiscoveryService"
+74-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\3bb9fab9565f3c13da1b0de3227d5105\firebase-database-19.2.1\AndroidManifest.xml:30:13-84
+75            android:directBootAware="true"
+75-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\93cb79fc02d29d4281262e02d857d2e2\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+76            android:exported="false" >
+76-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\3bb9fab9565f3c13da1b0de3227d5105\firebase-database-19.2.1\AndroidManifest.xml:31:13-37
+77            <meta-data
+77-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\3bb9fab9565f3c13da1b0de3227d5105\firebase-database-19.2.1\AndroidManifest.xml:32:13-34:85
+78                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+78-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\3bb9fab9565f3c13da1b0de3227d5105\firebase-database-19.2.1\AndroidManifest.xml:33:17-109
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\3bb9fab9565f3c13da1b0de3227d5105\firebase-database-19.2.1\AndroidManifest.xml:34:17-82
+80            <meta-data
+80-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\cf2070e8cb74b8bb68c2c2693c81ab70\play-services-measurement-api-17.2.2\AndroidManifest.xml:30:13-32:85
+81                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+81-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\cf2070e8cb74b8bb68c2c2693c81ab70\play-services-measurement-api-17.2.2\AndroidManifest.xml:31:17-139
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\cf2070e8cb74b8bb68c2c2693c81ab70\play-services-measurement-api-17.2.2\AndroidManifest.xml:32:17-82
+83            <meta-data
+83-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\f41c156e0ed91e1f3824f8f6e622f777\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+84                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+84-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\f41c156e0ed91e1f3824f8f6e622f777\firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\f41c156e0ed91e1f3824f8f6e622f777\firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+86        </service> <!-- Needs to be explicitly declared on P+ -->
+87        <uses-library
+87-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\b808d5cd51a1841a7786daa63d96121a\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
+88            android:name="org.apache.http.legacy"
+88-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\b808d5cd51a1841a7786daa63d96121a\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
+89            android:required="false" />
+89-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\b808d5cd51a1841a7786daa63d96121a\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
+90
+91        <receiver
+91-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\f41c156e0ed91e1f3824f8f6e622f777\firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+92            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+92-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\f41c156e0ed91e1f3824f8f6e622f777\firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+93            android:exported="true"
+93-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\f41c156e0ed91e1f3824f8f6e622f777\firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+94            android:permission="com.google.android.c2dm.permission.SEND" >
+94-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\f41c156e0ed91e1f3824f8f6e622f777\firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+95            <intent-filter>
+95-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\f41c156e0ed91e1f3824f8f6e622f777\firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+96                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+96-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\f41c156e0ed91e1f3824f8f6e622f777\firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
+96-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\f41c156e0ed91e1f3824f8f6e622f777\firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
+97            </intent-filter>
+98        </receiver>
+99
+100        <activity
+100-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\503246db64dcbb120c121745b36c75fd\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+101            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+101-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\503246db64dcbb120c121745b36c75fd\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+102            android:exported="false"
+102-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\503246db64dcbb120c121745b36c75fd\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+103-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\503246db64dcbb120c121745b36c75fd\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+104
+105        <provider
+105-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\93cb79fc02d29d4281262e02d857d2e2\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+106            android:name="com.google.firebase.provider.FirebaseInitProvider"
+106-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\93cb79fc02d29d4281262e02d857d2e2\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+107            android:authorities="com.example.winter.firebaseinitprovider"
+107-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\93cb79fc02d29d4281262e02d857d2e2\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+108            android:exported="false"
+108-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\93cb79fc02d29d4281262e02d857d2e2\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+109            android:initOrder="100" />
+109-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\93cb79fc02d29d4281262e02d857d2e2\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+110
+111        <receiver
+111-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\0ccebae8df273c3449071da13f472100\play-services-measurement-17.2.2\AndroidManifest.xml:29:9-33:20
+112            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+112-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\0ccebae8df273c3449071da13f472100\play-services-measurement-17.2.2\AndroidManifest.xml:30:13-85
+113            android:enabled="true"
+113-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\0ccebae8df273c3449071da13f472100\play-services-measurement-17.2.2\AndroidManifest.xml:31:13-35
+114            android:exported="false" >
+114-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\0ccebae8df273c3449071da13f472100\play-services-measurement-17.2.2\AndroidManifest.xml:32:13-37
+115        </receiver>
+116        <receiver
+116-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\0ccebae8df273c3449071da13f472100\play-services-measurement-17.2.2\AndroidManifest.xml:34:9-42:20
+117            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+117-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\0ccebae8df273c3449071da13f472100\play-services-measurement-17.2.2\AndroidManifest.xml:35:13-100
+118            android:enabled="true"
+118-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\0ccebae8df273c3449071da13f472100\play-services-measurement-17.2.2\AndroidManifest.xml:36:13-35
+119            android:exported="true"
+119-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\0ccebae8df273c3449071da13f472100\play-services-measurement-17.2.2\AndroidManifest.xml:37:13-36
+120            android:permission="android.permission.INSTALL_PACKAGES" >
+120-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\0ccebae8df273c3449071da13f472100\play-services-measurement-17.2.2\AndroidManifest.xml:38:13-69
+121            <intent-filter>
+121-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\0ccebae8df273c3449071da13f472100\play-services-measurement-17.2.2\AndroidManifest.xml:39:13-41:29
+122                <action android:name="com.android.vending.INSTALL_REFERRER" />
+122-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\0ccebae8df273c3449071da13f472100\play-services-measurement-17.2.2\AndroidManifest.xml:40:17-79
+122-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\0ccebae8df273c3449071da13f472100\play-services-measurement-17.2.2\AndroidManifest.xml:40:25-76
+123            </intent-filter>
+124        </receiver>
+125
+126        <service
+126-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\0ccebae8df273c3449071da13f472100\play-services-measurement-17.2.2\AndroidManifest.xml:44:9-47:40
+127            android:name="com.google.android.gms.measurement.AppMeasurementService"
+127-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\0ccebae8df273c3449071da13f472100\play-services-measurement-17.2.2\AndroidManifest.xml:45:13-84
+128            android:enabled="true"
+128-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\0ccebae8df273c3449071da13f472100\play-services-measurement-17.2.2\AndroidManifest.xml:46:13-35
+129            android:exported="false" />
+129-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\0ccebae8df273c3449071da13f472100\play-services-measurement-17.2.2\AndroidManifest.xml:47:13-37
+130        <service
+130-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\0ccebae8df273c3449071da13f472100\play-services-measurement-17.2.2\AndroidManifest.xml:48:9-52:72
+131            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+131-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\0ccebae8df273c3449071da13f472100\play-services-measurement-17.2.2\AndroidManifest.xml:49:13-87
+132            android:enabled="true"
+132-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\0ccebae8df273c3449071da13f472100\play-services-measurement-17.2.2\AndroidManifest.xml:50:13-35
+133            android:exported="false"
+133-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\0ccebae8df273c3449071da13f472100\play-services-measurement-17.2.2\AndroidManifest.xml:51:13-37
+134            android:permission="android.permission.BIND_JOB_SERVICE" />
+134-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\0ccebae8df273c3449071da13f472100\play-services-measurement-17.2.2\AndroidManifest.xml:52:13-69
+135
+136        <meta-data
+136-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\b34fc645fb774b13a250454a0fb4b359\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+137            android:name="com.google.android.gms.version"
+137-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\b34fc645fb774b13a250454a0fb4b359\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+138            android:value="@integer/google_play_services_version" />
+138-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Stunner\.gradle\caches\transforms-2\files-2.1\b34fc645fb774b13a250454a0fb4b359\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+139    </application>
+140
+141</manifest>
